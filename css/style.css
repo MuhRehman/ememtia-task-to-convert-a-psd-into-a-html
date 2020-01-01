@@ -1,0 +1,164 @@
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    position: relative;
+  }
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900&display=swap');
+
+navbar  {
+    background-color: whitesmoke;
+}
+
+ul li a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    
+}
+.sr-only {
+    color: #009de1 !important;
+}
+
+.carousel-caption  {
+    margin-bottom: 70px;
+}
+.nav-btn {
+    border: 3px solid #009de1;
+    border-radius: 20px;
+}
+.nav-item {
+    margin: 1px;
+}
+.active {
+    color: #009de1 !important;
+}
+.navbar-light .navbar-nav .active .nav-link {
+ color: #009de1 !important;
+}
+ .navbar-light .navbar-nav .active-btn a{
+color: white !important;
+}
+.active-btn {
+   background:#009de1;
+   color: white !important;
+   margin-left: 6px;
+   margin-right: 6px;
+}
+.nav-link {
+    
+     padding: 0px 10px 0px 15px!important; 
+} 
+.mark-text {
+color: #009de1;
+font-weight: 900;
+}
+.brand-text {
+    color: #da2e4a;
+    font-weight: 1000;
+}
+.carousel-caption p {
+    color: #e1e1e0;
+}
+.carousel-caption h1 {
+    font-size: 54px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+
+}
+.caption-btn-1 {
+    background-color: #da2e4a;
+    margin: 6px;
+    padding: 3px 24px 3px 20px;
+    border-bottom: 0.1px solid whitesmoke;
+    letter-spacing: 1px; 
+    font-size: 18px;
+}
+.caption-btn-2 {
+    background-color: #009de1;
+    margin: 5px;
+    padding: 3px 24px 3px 20px;
+    border-bottom: 0.1px solid whitesmoke;
+    letter-spacing: 1px; 
+    font-size: 18px;
+}
+.caption-btn {
+    width: 35%;
+    margin: auto;
+}
+.carousel-indicators li {
+  
+    width: 10px !important;
+    border-radius: 90% !important;
+    height: 10px !important;
+    margin-right: 10px !important;
+    margin-left: 5px !important;
+     background-clip: padding-box !important; 
+     border-top: 2px solid #dde2dc !important; 
+     border-bottom: 2px solid #dde2dc !important;
+     border: 2px solid #dde2dc;
+     background-color: #363636 !important;
+    }
+
+.servcie p {
+ width: 60%;
+ margin: auto;
+ color:#363636 ;
+}
+.servcie h1 {
+    color:#009de1; 
+}
+
+ 
+  ul.nav-pills {
+    top: 20px;
+    
+  }
+  div.col-8 div {
+    height: 500px;
+  }
+  .nav-pills .nav-link.active {
+
+    background-color: none !important;
+}
+  .scrollspy-example {
+height: 360px;
+}
+
+.list-items-1 {
+    /*display: none;*/
+}
+.list-items-2 {
+    display: none;
+}
+.list-items-3 {
+    display: none;
+}
+.list-items-4 {
+    display: none;
+}
+
+.list-item-btn {
+background-color: #da2e4a !important;
+width: 30%;
+margin: auto;
+color:white !important;
+padding: 8px;
+}
+
+.status-bar {
+    background-color: #007ab6;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 400px)  {
+
+
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px)  {
+
+
+}
